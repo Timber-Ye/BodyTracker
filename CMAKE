@@ -1,0 +1,7 @@
+cmake -D CMAKE_BUILD_TYPE=RELEASE \-D CMAKE_INSTALL_PREFIX=/usr/local/-D WITH_TBB=ON \-D ENABLE_FAST_MATH=1 \ -D CUDA_FAST_MATH=1 -D WITH_CUBLAS=ON -D INSTALL_PYTHON_EXAMPLES=ON \-D OPENCV_EXTRA_MODULES_PATH=/data/lyg_workspace/opencv3410/opencv/opencv_contrib-3.4.10/modules   #拓展模块路径，我这里是全路径
+-D BUILD_EXAMPLES=OFF
+-D OPENCV_ENABLE_NONFREE=ON    #如果需要提取warp optical,这个参数必须带上，不需要的话自己决定
+-D INSTALL_PYTHON_EXAMPLES=ON
+-D PYTHON_EXCUTABLE=/usr/bin/python  #我个人需要用python
+-D CUDA_GENERATION=Kepler   #根据自己得CUDA和显卡架构确定
+-D BUILD_TEST=OFF ..        #不编译测试脚本，不要漏了后面两点

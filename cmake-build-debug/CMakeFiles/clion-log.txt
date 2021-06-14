@@ -1,0 +1,9 @@
+"D:\Installation\JetBrains\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=D:/Installation/mingw64/bin/mingw32-make.exe -DCMAKE_C_COMPILER=D:/Installation/mingw64/bin/gcc.exe -DCMAKE_CXX_COMPILER=D:/Installation/mingw64/bin/g++.exe -G "CodeBlocks - MinGW Makefiles" "E:\Project for Application\C++\C++Project\OpenCV"
+-- OpenCV ARCH: x64
+-- OpenCV RUNTIME: mingw
+-- OpenCV STATIC: OFF
+-- Found OpenCV 4.4.0 in D:/Installation/opencv/mingw64-build/install/x64/mingw/lib
+-- You might need to add D:/Installation/opencv/mingw64-build/install/x64/mingw/bin to your PATH to be able to run your applications.
+-- Configuring done
+-- Generating done
+-- Build files have been written to: E:/Project for Application/C++/C++Project/OpenCV/cmake-build-debug

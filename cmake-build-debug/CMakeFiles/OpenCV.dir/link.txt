@@ -1,0 +1,3 @@
+"D:\Installation\JetBrains\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\OpenCV.dir/objects.a
+D:\Installation\mingw64\bin\ar.exe cr CMakeFiles\OpenCV.dir/objects.a @CMakeFiles\OpenCV.dir\objects1.rsp
+D:\Installation\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\OpenCV.dir/objects.a -Wl,--no-whole-archive -o OpenCV.exe -Wl,--out-implib,libOpenCV.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\OpenCV.dir\linklibs.rsp
